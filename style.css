@@ -1,0 +1,64 @@
+#board
+{
+    display: grid;
+    grid-template: 50px 50px 50px / 50px 50px 50px;
+}
+
+.tile 
+{
+    border: solid black;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: darkblue;
+    background-color: rgb(219, 129, 77);
+}
+
+body 
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: khaki;
+}
+
+#controls
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#player1:hover::placeholder
+{
+    color: blue;
+}
+
+#player2:hover::placeholder
+{
+    color: red;
+}
+
+button
+{
+    width: 75px;
+    height: 25px;
+    background-color: rgb(219, 129, 77);
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+button:hover
+{
+    color: yellow;
+}
+
+#buttons
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-top: 25px;
+    gap: 10px;
+    align-items: center;
+}
