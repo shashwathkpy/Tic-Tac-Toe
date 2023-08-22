@@ -17,6 +17,7 @@
 .tile:hover
 {
     background-color: yellow;
+    cursor: pointer;
 }
 
 body 
@@ -56,6 +57,7 @@ button
 button:hover
 {
     color: yellow;
+    cursor: pointer;
 }
 
 #buttons
